@@ -1,6 +1,6 @@
 ### Spark Scala Project
 
-#### 1. Install Java
+#### 1.Install Java
 
     download:
     https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.tar.gz?AuthParam=1548475597_3e8046d4e642f18fbb991df42ebc8865
@@ -30,7 +30,7 @@
     export JAVA_HOME
     export PATH
 
-####2. Install Intellij
+#### 2.Install Intellij
 
     download
     url: https://download-cf.jetbrains.com/idea/ideaIC-2018.3.3.tar.gz
@@ -55,7 +55,7 @@
     3. search sclaa
     4. Install scala
 
-####3. Install sbt
+#### 3.Install sbt
 
     download
     url :https://dl.bintray.com/sbt/debian/sbt-1.2.8.deb
@@ -71,7 +71,7 @@
     Creating system user: sbt in sbt with sbt daemon-user and shell /bin/false
     Processing triggers for man-db (2.7.5-1) ...
 
-####4. Create project
+#### 4.Create project
 
     https://hortonworks.com/tutorial/setting-up-a-spark-development-environment-with-scala/
 
@@ -113,7 +113,7 @@
         libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.0"
 
 
-####5. Build package
+#### 5.Build package
 
     csk@csk-ai-revolution:~/IdeaProjects/Helloscala1$ sbt package
     [info] Loading project definition from /home/csk/IdeaProjects/Helloscala1/project
@@ -125,7 +125,7 @@
     [info] Done packaging.
     [success] Total time: 6 s, completed 26 Jan, 2019 11:16:44 PM
 
-####6.Spark download:
+#### 6.Spark download:
 
     download
     url: https://spark.apache.org/downloads.html
@@ -133,7 +133,7 @@
 
     csk@csk-ai-revolution:~/sparkscala$ tar -xvf spark-2.4.0-bin-hadoop2.7.tgz
 
-####7. Deploy project
+#### 7.Deploy project
 
     csk@csk-ai-revolution:~/sparkscala/spark-2.4.0-bin-hadoop2.6/bin$ ./spark-submit --class Helloscala1  --master local /home/csk/IdeaProjects/Helloscala1/target/scala-2.11/helloscala1_2.11-0.1.jar
 
