@@ -148,3 +148,8 @@
     csk@csk-ai-revolution:~/IdeaProjects/Helloscala1$ cd /tmp/shakespeareWordCount3
     csk@csk-ai-revolution:/tmp/shakespeareWordCount3$ ls
     part-00000  _SUCCESS
+
+
+#### Spark scala Mssql connector
+
+https://stephanefrechette.com/connect-sql-server-using-apache-spark/#.XE2q7hgzZCU
