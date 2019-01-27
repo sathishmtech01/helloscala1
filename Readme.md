@@ -142,3 +142,9 @@
     part-00000  _SUCCESS
     csk@csk-ai-revolution:/tmp/shakespeareWordCount2$ nano part-00000
 
+    Command line args:
+    
+    csk@csk-ai-revolution:~/IdeaProjects/Helloscala1$ spark-submit --class Helloscala1  --master local /home/csk/IdeaProjects/Helloscala1/target/scala-2.11/helloscala1_2.11-0.1.jar /home/csk/IdeaProjects/Helloscala1/src/main/resources/shakespeare.txt /tmp/shakespeareWordCount3
+    csk@csk-ai-revolution:~/IdeaProjects/Helloscala1$ cd /tmp/shakespeareWordCount3
+    csk@csk-ai-revolution:/tmp/shakespeareWordCount3$ ls
+    part-00000  _SUCCESS

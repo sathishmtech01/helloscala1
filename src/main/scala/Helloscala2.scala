@@ -1,6 +1,6 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Helloscala1 {
+object Helloscala2 {
 
   def main(args: Array[String]) {
 
@@ -11,7 +11,7 @@ object Helloscala1 {
     val sc = new SparkContext(conf)
 
     // Load the text into a Spark RDD, which is a distributed representation of each line of text
-    val textFile = sc.textFile(path=args(0))
+    val textFile = sc.textFile("/home/csk/IdeaProjects/Helloscala1/src/main/resources/shakespeare.txt")
 
     //word count
     val counts = textFile.flatMap(line => line.split(" "))
@@ -20,7 +20,7 @@ object Helloscala1 {
 
     counts.foreach(println)
     System.out.println("Total words: " + counts.count());
-    counts.saveAsTextFile(path=args(1))
+    counts.saveAsTextFile("/tmp/shakespeareWordCount2")
   }
 
 }

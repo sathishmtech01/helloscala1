@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/csk/IdeaProjects/Helloscala1/src/main/scala/Helloscala1.scala:14:32: not found: value arg[0m
+[0m[[0m[31merror[0m] [0m[0m    val textFile = sc.textFile(arg(0))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
